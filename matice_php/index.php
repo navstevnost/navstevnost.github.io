@@ -74,7 +74,7 @@ if ($_POST) {
     foreach ($matice as $radek) {
         echo '<tr>';
         foreach ($radek as $bunka) {
-            if ($bunka == $min){
+            if ($bunka == $min) {
                 echo '<td class="min">' . $bunka . '</td>';
             } elseif ($bunka == $max) {
                 echo '<td class="max">' . $bunka . '</td>';
